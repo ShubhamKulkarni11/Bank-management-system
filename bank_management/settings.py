@@ -11,7 +11,12 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 from pathlib import Path
+<<<<<<< HEAD
 import django_heroku
+=======
+import os
+
+>>>>>>> caf02211e2b1d3492fcfadcc31dbf44f98efb9d2
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -121,6 +126,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+<<<<<<< HEAD
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 #PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -135,7 +141,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # )
 # Activate Django-Heroku.
 # django_heroku.settings(locals())
+=======
+>>>>>>> caf02211e2b1d3492fcfadcc31dbf44f98efb9d2
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+<<<<<<< HEAD
+=======
+
+>>>>>>> caf02211e2b1d3492fcfadcc31dbf44f98efb9d2
